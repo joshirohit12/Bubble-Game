@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(137, 50, 145);
+}
+.panel{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ptop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(114, 58, 119);
+    height: 100px;
+    color: white;
+}
+
+.elem{
+    width: 30%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+.box{
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 50, 145 );
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+}
+
